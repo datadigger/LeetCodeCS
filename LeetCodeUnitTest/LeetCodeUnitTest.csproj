@@ -53,6 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ContainerWithMostWaterTest.cs" />
+    <Compile Include="LetterCombinationsOfPhoneNumberTest.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTest.cs" />
     <Compile Include="PalindromeNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
