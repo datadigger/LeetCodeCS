@@ -53,10 +53,12 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ContainerWithMostWaterTest.cs" />
+    <Compile Include="ImplementStrStrTest.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumberTest.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTest.cs" />
     <Compile Include="PalindromeNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForRangeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
