@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStrings.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumber.cs" />
