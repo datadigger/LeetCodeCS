@@ -64,6 +64,7 @@
     <Compile Include="PalindromeNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchForRangeTest.cs" />
+    <Compile Include="MergeTwoSortedListTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
