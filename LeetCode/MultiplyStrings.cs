@@ -54,6 +54,12 @@ namespace LeetCode
                     ++offset;
                 }
 
+                if (carry > 0)
+                {
+                    num3[index - offset] = carry;
+                    carry = 0;
+                }
+
                 --index;
             }
 
@@ -64,24 +70,20 @@ namespace LeetCode
 
             var sb = new StringBuilder();
             var skipHeadZero = false;
-            for (int i = 0; i < num3.Length; ++i)
+            foreach (var t in num3)
             {
-                if (num3[i] == 0 && !skipHeadZero)
+                if (t == 0 && !skipHeadZero)
                 {
                     continue;
                 }
 
                 skipHeadZero = true;
 
-                sb.Append(num3[i].ToString());
+                sb.Append(t.ToString());
             }
 
             var result = sb.ToString();
-            if (result.Length == 0)
-            {
-                return "0";
-            }
-            return sb.ToString();
+            return result.Length == 0 ? "0" : sb.ToString();
         }
     }
 }

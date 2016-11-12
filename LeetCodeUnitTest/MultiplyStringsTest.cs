@@ -22,6 +22,8 @@ namespace LeetCodeUnitTest
             Assert.AreEqual("4", this.util.Multiply("2", "2"));
             Assert.AreEqual("81", this.util.Multiply("9", "9"));
             Assert.AreEqual("121", this.util.Multiply("11", "11"));
+            Assert.AreEqual("891", this.util.Multiply("9", "99"));
+            Assert.AreEqual("98765431112345679", this.util.Multiply("987654321", "99999999"));
             Assert.AreEqual("1", this.util.Multiply("1", "1"));
             Assert.AreEqual("1", this.util.Multiply("1", "1"));
             Assert.AreEqual("10000", this.util.Multiply("10", "1000"));
