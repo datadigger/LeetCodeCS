@@ -50,7 +50,9 @@
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumber.cs" />
+    <Compile Include="ListNode.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="MultiplyStrings.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Program.cs" />

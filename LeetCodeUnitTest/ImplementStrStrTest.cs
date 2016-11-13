@@ -7,19 +7,17 @@ namespace LeetCodeUnitTest
 {
     using LeetCode;
 
-    using NUnit.Framework;
-
     using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
     /// <summary>
     /// Summary description for ImplementStrStr
     /// </summary>
-    [TestFixture]
+    [TestClass]
     public class ImplementStrStrTest
     {
         private readonly ImplementStrStr util = new ImplementStrStr();
 
-        [Test]
+        [TestMethod]
         public void TestSimple()
         {
             Assert.AreEqual(0, this.util.StrStr("a", "a"));
