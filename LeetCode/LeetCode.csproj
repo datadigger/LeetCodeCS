@@ -58,6 +58,7 @@
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotateImage.cs" />
     <Compile Include="SearchForRange.cs" />
     <Compile Include="ValidSudoku.cs" />
   </ItemGroup>
