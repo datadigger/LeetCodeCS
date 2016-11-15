@@ -60,6 +60,7 @@
     <Compile Include="ContainerWithMostWaterTest.cs" />
     <Compile Include="ImplementStrStrTest.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumberTest.cs" />
+    <Compile Include="LongestCommonPrefixTest.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTest.cs" />
     <Compile Include="MultiplyStringsTest.cs" />
     <Compile Include="PalindromeNumberTest.cs" />

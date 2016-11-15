@@ -52,6 +52,7 @@
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="ListNode.cs" />
+    <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="MultiplyStrings.cs" />
