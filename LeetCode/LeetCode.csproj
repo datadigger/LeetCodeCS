@@ -55,6 +55,7 @@
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="MinimumMovesToEqualArrayElements.cs" />
     <Compile Include="MultiplyStrings.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Program.cs" />

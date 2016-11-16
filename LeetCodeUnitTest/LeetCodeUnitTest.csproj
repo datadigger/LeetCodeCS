@@ -62,6 +62,7 @@
     <Compile Include="LetterCombinationsOfPhoneNumberTest.cs" />
     <Compile Include="LongestCommonPrefixTest.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTest.cs" />
+    <Compile Include="MinimumMovesToEqualArrayElementsTest.cs" />
     <Compile Include="MultiplyStringsTest.cs" />
     <Compile Include="PalindromeNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
