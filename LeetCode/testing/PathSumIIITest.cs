@@ -35,5 +35,15 @@ namespace LeetCode
 
       Assert.That(3, Is.EqualTo(util.PathSum(node1, 8)));
     }
+
+    [Test]
+    public void TestSimple2() {
+      TreeNode node1 = new TreeNode(2);
+      TreeNode node2 = new TreeNode(2);
+      node1.left = node2;
+
+      Assert.That(0, Is.EqualTo( util.PathSum(node1, 3)));
+      Assert.That(2, Is.EqualTo(util.PathSum(node1, 2)));
+    }
   }
 }

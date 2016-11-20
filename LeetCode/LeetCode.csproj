@@ -67,6 +67,7 @@
     <Compile Include="PathSumIII.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="testing\PathSumIIITest.cs" />
+    <Compile Include="ArrangingCoins.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

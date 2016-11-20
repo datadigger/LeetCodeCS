@@ -6,6 +6,10 @@ namespace LeetCode
   {
     public int PathSum(TreeNode root, int sum)
     {
+      return DoPathSum(root, sum, true);
+    }
+
+    private int DoPathSum(TreeNode root, int sum, bool isOriginalSum) {
       if (root == null) {
         return 0;
       }
@@ -16,9 +20,12 @@ namespace LeetCode
         ++totalPath;
       }
 
-      totalPath += PathSum(root.left, sum) + PathSum(root.right, sum);
-      totalPath += PathSum(root.left, sum - root.val) 
-                 + PathSum(root.right, sum - root.val);
+      if (isOriginalSum) {
+        totalPath += PathSum(root.left, sum) + PathSum(root.right, sum);
+      } 
+
+      totalPath += DoPathSum(root.left, sum - root.val, false) 
+                 + DoPathSum(root.right, sum - root.val, false);
 
       return totalPath;
     }
