@@ -51,6 +51,7 @@
     <Compile Include="BinaryWatch.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="ImplementStrStr.cs" />
+    <Compile Include="IntersectionOfTwoArraysII.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="RotateImage.cs" />
     <Compile Include="SearchForRange.cs" />
     <Compile Include="testing\BinaryWatchTest.cs" />
+    <Compile Include="testing\IntersectionOfTwoArraysIITest.cs" />
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="PathSumIII.cs" />
     <Compile Include="TreeNode.cs" />
