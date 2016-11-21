@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddStrings.cs" />
+    <Compile Include="BinaryWatch.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LetterCombinationsOfPhoneNumber.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SearchForRange.cs" />
+    <Compile Include="testing\BinaryWatchTest.cs" />
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="PathSumIII.cs" />
     <Compile Include="TreeNode.cs" />
