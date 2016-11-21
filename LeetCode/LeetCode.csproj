@@ -67,7 +67,9 @@
     <Compile Include="SearchForRange.cs" />
     <Compile Include="testing\BinaryWatchTest.cs" />
     <Compile Include="testing\IntersectionOfTwoArraysIITest.cs" />
+    <Compile Include="testing\UniquePathsIIUtilTest.cs" />
     <Compile Include="testing\UniquePathsUtilTest.cs" />
+    <Compile Include="UniquePathsIIUtil.cs" />
     <Compile Include="UniquePathsUtil.cs" />
     <Compile Include="ValidSudoku.cs" />
     <Compile Include="PathSumIII.cs" />
