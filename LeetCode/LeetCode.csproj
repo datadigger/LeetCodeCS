@@ -65,8 +65,10 @@
     <Compile Include="RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SearchForRange.cs" />
+    <Compile Include="SpiralMatrix.cs" />
     <Compile Include="testing\BinaryWatchTest.cs" />
     <Compile Include="testing\IntersectionOfTwoArraysIITest.cs" />
+    <Compile Include="testing\SpiralMatrixTest.cs" />
     <Compile Include="testing\UniquePathsIIUtilTest.cs" />
     <Compile Include="testing\UniquePathsUtilTest.cs" />
     <Compile Include="UniquePathsIIUtil.cs" />
